@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Party_Claim</fullName>
+    <active>true</active>
+    <description>Claims filed by or against third parties</description>
+    <label>Third Party Claim</label>
+</RecordType>

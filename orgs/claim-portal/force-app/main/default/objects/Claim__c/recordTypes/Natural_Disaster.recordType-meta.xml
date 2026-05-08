@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Natural_Disaster</fullName>
+    <active>true</active>
+    <description>Claims related to natural disasters</description>
+    <label>Natural Disaster</label>
+</RecordType>
