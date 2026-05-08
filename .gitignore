@@ -1,0 +1,9 @@
+.sfdx/
+.sf/
+*.log
+node_modules/
+package-lock.json
+.DS_Store
+Thumbs.db
+**/namedCredentials/*.secret
+.env
