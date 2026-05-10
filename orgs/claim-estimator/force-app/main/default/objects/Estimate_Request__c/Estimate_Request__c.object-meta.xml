@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Estimate Request</label>
+    <pluralLabel>Estimate Requests</pluralLabel>
+    <description>Stores all inbound estimation requests received by the claim-estimator org from the MCP Gateway. Each record represents one estimation request from the core org.</description>
+    <nameField>
+        <label>Request Number</label>
+        <type>AutoNumber</type>
+        <displayFormat>REQ-{000000}</displayFormat>
+        <startingNumber>1</startingNumber>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <enableActivities>true</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+</CustomObject>

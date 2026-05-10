@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Timestamp__c</fullName>
+    <label>Request Timestamp</label>
+    <description>The exact date and time this estimation request was received</description>
+    <inlineHelpText>Records when the estimation request was received by the claim-estimator org</inlineHelpText>
+    <type>DateTime</type>
+    <required>false</required>
+</CustomField>

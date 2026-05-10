@@ -1,0 +1,93 @@
+.hero-banner {
+    background: linear-gradient(135deg, #1B5E8C 0%, #0D3B5E 100%);
+    padding: 60px 40px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #B3D4F0;
+}
+
+.cards-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px 40px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 40px 32px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #1B5E8C;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.btn-primary {
+    background: #1B5E8C;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background: #0D3B5E;
+}
+
+.btn-secondary {
+    background: white;
+    color: #1B5E8C;
+    border: 2px solid #1B5E8C;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    background: #1B5E8C;
+    color: white;
+}

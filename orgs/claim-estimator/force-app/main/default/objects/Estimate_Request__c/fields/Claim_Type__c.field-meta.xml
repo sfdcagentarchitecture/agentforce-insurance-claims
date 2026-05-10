@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claim_Type__c</fullName>
+    <label>Claim Type</label>
+    <description>Type of vehicle insurance claim being estimated</description>
+    <inlineHelpText>Select the type of insurance claim for this estimation request</inlineHelpText>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accident</fullName>
+                <default>false</default>
+                <label>Accident</label>
+            </value>
+            <value>
+                <fullName>Theft</fullName>
+                <default>false</default>
+                <label>Theft</label>
+            </value>
+            <value>
+                <fullName>Windscreen</fullName>
+                <default>false</default>
+                <label>Windscreen</label>
+            </value>
+            <value>
+                <fullName>Natural_Disaster</fullName>
+                <default>false</default>
+                <label>Natural Disaster</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

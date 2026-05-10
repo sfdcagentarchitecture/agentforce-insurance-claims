@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rule_Applied__c</fullName>
+    <label>Rule Applied</label>
+    <description>The name of the estimation rule that was applied to calculate this result</description>
+    <inlineHelpText>Enter the name or identifier of the estimation rule used to calculate this response</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+    <required>false</required>
+</CustomField>

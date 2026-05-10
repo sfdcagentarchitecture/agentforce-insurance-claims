@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimate_Request__c</fullName>
+    <label>Estimate Request</label>
+    <description>Lookup to the originating Estimate Request record</description>
+    <inlineHelpText>Links this response to the estimation request that triggered it</inlineHelpText>
+    <type>Lookup</type>
+    <referenceTo>Estimate_Request__c</referenceTo>
+    <relationshipLabel>Estimate Responses</relationshipLabel>
+    <relationshipName>Estimate_Responses</relationshipName>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+</CustomField>
