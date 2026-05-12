@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppGlobalOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callbackUrl>https://orgfarm-0d4617205b-dev-ed.develop.my.salesforce.com/services/oauth2/callback</callbackUrl>
+    <consumerKey>3MVG97L7PWbPq6Uzvst9.bmGJanXTZCZGMaE6Q5UJMk7E47ytTYbl3qKT955Ga5X3lJ51mBR51xg2wXEbTBQp</consumerKey>
+    <externalClientApplication>Claim_Core_Agent_Client</externalClientApplication>
+    <isClientCredentialsFlowEnabled>true</isClientCredentialsFlowEnabled>
+    <isCodeCredFlowEnabled>false</isCodeCredFlowEnabled>
+    <isCodeCredPostOnly>false</isCodeCredPostOnly>
+    <isConsumerSecretOptional>true</isConsumerSecretOptional>
+    <isDeviceFlowEnabled>false</isDeviceFlowEnabled>
+    <isIntrospectAllTokens>false</isIntrospectAllTokens>
+    <isNamedUserJwtEnabled>true</isNamedUserJwtEnabled>
+    <isPkceRequired>false</isPkceRequired>
+    <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+    <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+    <isSecretRequiredForTokenExchange>true</isSecretRequiredForTokenExchange>
+    <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+    <label>Claim_Core_Agent_Client_glbloauth</label>
+    <shouldRotateConsumerKey>false</shouldRotateConsumerKey>
+    <shouldRotateConsumerSecret>false</shouldRotateConsumerSecret>
+</ExtlClntAppGlobalOauthSettings>
