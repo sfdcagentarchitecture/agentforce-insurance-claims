@@ -1,0 +1,42 @@
+{
+  "required" : [ "claimType", "damageLevel", "vehicleType" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "claimId" : {
+      "title" : "Claim Id",
+      "description" : "Claim record ID from claim-core org",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "claimType" : {
+      "title" : "Claim Type",
+      "description" : "Accident, Theft, Windscreen or Natural_Disaster",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "damageLevel" : {
+      "title" : "Damage Level",
+      "description" : "Minor, Major, Total Loss, Replace or Repair",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "incidentDescription" : {
+      "title" : "Incident Description",
+      "description" : "Description of the incident",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "vehicleType" : {
+      "title" : "Vehicle Type",
+      "description" : "Sedan, SUV, Truck, Hatchback, Motorcycle or Van",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Api, SFApiPlatform</commaSeparatedOauthScopes>
+    <externalClientApplication>Claim_Core_MCP_Client</externalClientApplication>
+    <isFirstPartyAppEnabled>false</isFirstPartyAppEnabled>
+    <label>Claim_Core_MCP_Client_oauth</label>
+    <oauthLink>00DNS00000sEQA1:888NS000001qq3Z</oauthLink>
+</ExtlClntAppOauthSettings>

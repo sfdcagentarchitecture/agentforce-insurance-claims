@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows custom permissions for Agentforce Agent : Claim_Estimation_Agent&apos;s agent user : claim_estimation_agent@00dns00000seqa11337578719.ext.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Claim_Estimation_Agent1912622854 Permissions</label>
+    <license>Einstein Agent</license>
+</PermissionSet>
