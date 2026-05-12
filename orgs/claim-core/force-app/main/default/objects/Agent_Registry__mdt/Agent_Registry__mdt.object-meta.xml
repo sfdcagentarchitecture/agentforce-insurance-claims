@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Registry of all MCP agent orgs and their endpoints. Adding a new agent org requires only a new record here — no code changes</description>
+    <label>Agent Registry</label>
+    <pluralLabel>Agent Registries</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
