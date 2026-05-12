@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Estimation Agent</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Agent_Id__c</field>
+        <value xsi:type="xsd:string">0XxNS0000041rMX0AY</value>
+    </values>
+    <values>
+        <field>Auth_Type__c</field>
+        <value xsi:type="xsd:string">OAuth_Client_Credentials</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Claim-estimator org — handles vehicle damage estimation, cost calculation and confidence scoring</value>
+    </values>
+    <values>
+        <field>Endpoint_URL__c</field>
+        <value xsi:type="xsd:string">https://orgfarm-2c94d1b225-dev-ed.develop.my.salesforce.com</value>
+    </values>
+    <values>
+        <field>Named_Credential__c</field>
+        <value xsi:type="xsd:string">Claim_Estimator_API</value>
+    </values>
+    <values>
+        <field>Timeout_MS__c</field>
+        <value xsi:type="xsd:double">120000.0</value>
+    </values>
+</CustomMetadata>
