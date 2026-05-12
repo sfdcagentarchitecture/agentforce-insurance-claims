@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Claim Estimator Agent</label>
+    <protected>false</protected>
+    <values>
+        <field>Agent_ID__c</field>
+        <value xsi:type="xsd:string">0XxNS0000041rMX0AY</value>
+    </values>
+    <values>
+        <field>Agent_Name__c</field>
+        <value xsi:type="xsd:string">Claim_Estimation_Agent</value>
+    </values>
+    <values>
+        <field>Client_ID__c</field>
+        <value xsi:type="xsd:string">3MVG9VMBZCsTL9hlGTnTsZU_wjpAx30muoTKOyQFenetmaBia6u8alBEU7XlDFTUbrVMxw9oVcqKRKV6pB9V9</value>
+    </values>
+    <values>
+        <field>Client_Secret__c</field>
+        <value xsi:type="xsd:string">2FB0AEB8191AAA394DCE8D69AB97732ED47E5B385071A4108B1B6AC1296337CB</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Claim Estimator Agent in claim-estimator org</value>
+    </values>
+    <values>
+        <field>Is_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Org_URL__c</field>
+        <value xsi:type="xsd:string">https://orgfarm-2c94d1b225-dev-ed.develop.my.salesforce.com</value>
+    </values>
+    <values>
+        <field>Timeout_MS__c</field>
+        <value xsi:type="xsd:double">30000.0</value>
+    </values>
+</CustomMetadata>
